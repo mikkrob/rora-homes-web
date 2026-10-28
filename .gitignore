@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local Postgres data (tests / dev)
+.pgdata/
+
+# Source material with personal data (room photos of real homes) never goes in the repo
+source-photos/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
